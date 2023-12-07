@@ -11,13 +11,13 @@ from langchain.chat_models import ChatOpenAI
 
 
 ############# SETTINGS ###########################
-SLACK_TOKEN_= "xoxb-1151796697329-6282220823063-6UZgb5tJ0JK4Az4uOXRoOmPo"
-CHANNEL_ID_ = "C068CJ14GKT"
+SLACK_TOKEN_= ""
+CHANNEL_ID_ = ""
 #ADMIN_TOKEN_=  ""
 #SIGNING_SECRET_= ""
 
 client = slack.WebClient(token= SLACK_TOKEN_)  # Initialize a Web API client
-BOT_ID = 'U068A6GQ71V'
+BOT_ID = ''
 #BOT_ID = client.auth_test()['user_id']
 
 
